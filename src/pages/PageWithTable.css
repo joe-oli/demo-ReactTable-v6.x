@@ -1,0 +1,19 @@
+.section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 90px 30px;
+    background-color: #FFCDD2;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+
+  .section p {
+    line-height: 1.625em;
+    margin: 0 auto;
+    max-width: 480px;
+  }
+  

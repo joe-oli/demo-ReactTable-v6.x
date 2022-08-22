@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column; /* default is row! */
+  text-align: left;
+  min-height: 100vh; /* expand height to occupy whole screen */
+  /* border: 1px red solid; FOR DEBUGGIN*/
+}
+/* App contains div.content,footer element; 
+  To make sticky footer, for sparse pages, want content to expand to use all height until footer at bottom 
+*/
+.content {
+  flex: 1 0 auto; /* grow */
+}
+footer {
+  flex-shrink: 0;
+  /* height: 40px; */
+}
+
+
+
+nav {
+  position: sticky;
+  top: 0; /*threshold for stickyness - NONE */
+  display: flex;
+  /* two children are nav-title + nav-list, pushed to the left/right edges with space-between */
+  justify-content: space-between;
+  align-items: center; /* vertically, think "middle" */
+  height: 60px;
+  
+}
+nav {
+  background: #42A5F5;
+}
+
+.nav_title {
+  margin: 0px 30px;
+}
+.nav_item {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+
+.content {
+  margin: 0 auto;
+  /* max-width: 32em; */
+  max-width: 900px;
+  padding: 3em 0; /*top,bottom; left,right*/
+}
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+}
