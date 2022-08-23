@@ -1,0 +1,17 @@
+.simple-btn {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 5px 10px; /* adjust to align text inside button */
+}
+.simple-btn:hover {
+    background-color: #772ce8;
+    color:orange;
+}
